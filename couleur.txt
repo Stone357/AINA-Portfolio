@@ -1,0 +1,13 @@
+--gradient: linear-gradient(45deg, #00caff, 4c88ff, #cc54ef, #ff4c9e, #ff5647);
+
+moonMode = body.querySelector(".bx-moon"),
+sunMode = body.querySelector(".bx-sun"),
+
+	if (body.classList.contains("dark")){
+	  		modeText.innerText = "Mode nuit"
+	  		moonMode.style.visibility = "hidden"
+	  	}else{
+	  		modeText.innerText = "Mode éclairer"
+	  		sunMode.style.visibility = "visible"
+	  	}
+
